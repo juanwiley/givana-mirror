@@ -1,0 +1,46 @@
+/* src/landing/public/LandingPublic.module.css */
+
+.container {
+  width: 100%;
+  max-width: 100vw;
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.carouselWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
+
+.listingsWrapper {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  box-sizing: border-box;
+}
+
+.sectionTitle {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.listingGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 16px;
+  margin-bottom: 1rem;
+}
+
+.viewAllLink {
+  display: inline-block;
+  margin-top: 1rem;
+  font-weight: bold;
+  text-decoration: underline;
+}

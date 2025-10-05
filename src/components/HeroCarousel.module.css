@@ -1,0 +1,79 @@
+/* ✅ UPDATED: src/components/HeroCarousel.module.css */
+
+.carousel {
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  padding: 0;
+}
+
+.mediaContainer {
+  width: 100%;
+  max-width: 1024px;
+  height: auto;
+  max-height: 70vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.slide {
+  display: none;
+}
+
+.slide.active {
+  display: block;
+}
+
+.media {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  background-color: transparent;
+  display: block;
+  margin: 0 auto;
+}
+
+.arrows {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  max-width: 1024px;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+  pointer-events: none;
+  padding: 0 1rem;
+}
+
+.arrows button {
+  background-color: rgba(255, 255, 255, 0.3);
+  border: none;
+  padding: 0.5rem 0.75rem;
+  border-radius: 8px;
+  cursor: pointer;
+  pointer-events: auto;
+}
+
+.arrowSymbol {
+  color: #ccc;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .mediaContainer {
+    width: 100%;
+    max-height: 70vh;
+  }
+
+  .arrowSymbol {
+    font-size: 1.25rem;
+  }
+
+  .arrows button {
+    padding: 0.4rem 0.5rem;
+  }
+}

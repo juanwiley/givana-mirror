@@ -1,0 +1,27 @@
+/* src/styles/tokens.css */
+/* Global design tokens — import once from globals.css */
+
+:root {
+  /* Colors */
+  --color-text: #1f2937;       /* slate-800-ish */
+  --color-muted: #475569;      /* slate-600-ish */
+  --color-border: #e5e7eb;     /* gray-200-ish */
+  --color-bg: #ffffff;
+
+  /* Shadows */
+  --shadow-card: 0 1px 2px rgba(16, 24, 40, 0.05);
+  --shadow-card-hover: 0 4px 10px rgba(16, 24, 40, 0.12);
+
+  /* Radii */
+  --radius-lg: 10px;
+
+  /* Spacing scale */
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+
+  /* Typography */
+  --fs-13: 13px;
+  --fs-14: 14px;
+  --fs-15: 15px;
+}

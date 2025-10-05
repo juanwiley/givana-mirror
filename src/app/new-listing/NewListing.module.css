@@ -1,0 +1,46 @@
+/* ✅ NewListing.module.css (scoped selectors only) */
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 1rem;
+  background-color: #fafafa;
+  border: 1px solid #eee;
+  border-radius: 8px;
+}
+
+.form input,
+.form textarea,
+.form select {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form label {
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+}
+
+.form button {
+  padding: 0.6rem 1rem;
+  background-color: #c18343;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.form button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* in src/app/new-listing/NewListing.module.css */
+.select optgroup { font-weight: 700; }
+
