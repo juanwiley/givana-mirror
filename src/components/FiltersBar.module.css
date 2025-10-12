@@ -1,0 +1,28 @@
+.wrap {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 0 1rem 0;
+}
+
+.input {
+  flex: 1 1 340px;
+  max-width: 560px;
+  padding: 10px 12px;
+  border: 1px solid #dcdfe3;
+  border-radius: 8px;
+  outline: none;
+}
+
+.input:focus {
+  border-color: #c18343;
+  box-shadow: 0 0 0 2px rgba(193, 131, 67, 0.15);
+}
+
+.select {
+  padding: 10px 12px;
+  border: 1px solid #dcdfe3;
+  border-radius: 8px;
+  background: #fff;
+}

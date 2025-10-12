@@ -1,0 +1,66 @@
+/* File: src/app/loops/[slug]/slug.module.css */
+
+.heroSection {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  align-items: flex-start;
+  margin: 2rem auto;
+  max-width: 1024px;
+  padding: 0 1rem;
+  flex-wrap: wrap;
+}
+
+.heroImageWrapper {
+  flex: 1 1 300px;
+  max-width: 300px;
+}
+
+.heroImage {
+  width: 100%;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.heroContent {
+  flex: 2 1 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.loopTitle {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.loopDescription {
+  font-size: 1rem;
+  color: #444;
+}
+
+.impactStats {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  font-size: 0.95rem;
+  color: #333;
+}
+
+.listingSection {
+  max-width: 1024px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.listingHeading {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 16px;
+}
